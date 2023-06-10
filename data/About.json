@@ -1,48 +1,51 @@
 {
-    "Id":"1",
-    "Icon":"img/icon.png",
-    "ImgUrl":"img/contact.jpg",
-    "Title":" اكسبيريس واش كار أفضل مركز لخدمات سيارات بالرياض",
-    "description":"افضل شركة غسيل سيارات بالبخار من الداخل والخارج بأفضل الاسعار مع ازالة البقع المستعصيه . اتصل نصلك اينما كنت",
-    "Url":"#"
-      ,"lsdata1":[
-        {
-            "Id":"1",
-            "name":""
-        },
-        {
-            "Id":"1",
-            "name":""
-        }
-    ]
-    ,"lsdata2":[
-        {
-            "Id":"1",
-            "name":""
-        },
-        {
-            "Id":"1",
-            "name":""
-        }
-    ]
-    ,"lsImg":[
-        {
-            "Id":"1",
-            "Img":"img/img00_2.jpeg"
-        },
-        {
-            "Id":"2",
-            "Img":"img/img00_3.jpeg"
-        }
-        ,
-        {
-            "Id":"3",
-            "Img":"img/img00_4.jpeg"
-        }
-        ,
-        {
-            "Id":"4",
-            "Img":"img/img00_5.jpeg"
-        }
-    ]     
+  "Id": 1,
+  "Icon": "8ae33f61-03b7-4a01-a1ed-5cedaf6d4f14.png",
+  "ImgUrl": "30ca3c43-9b60-4370-91c2-9589b69be78b.jpg",
+  "Title": "أفضل مركز لخدمات سيارات بالرياض",
+  "description": "افضل شركة غسيل سيارات بالبخار من الداخل والخارج بأفضل الاسعار مع ازالة البقع المستعصيه . اتصل نصلك اينما كنت",
+  "Url": "#",
+  "lsdata1": [
+    {
+      "Id": 1,
+      "name": "عنصر رقم 1-1",
+      "Description": null
+    },
+    {
+      "Id": 2,
+      "name": "عنصر رقم 1-2",
+      "Description": null
+    }
+  ],
+  "lsdata2": [
+    {
+      "Id": 1,
+      "name": "عنصر رقم 2-1",
+      "Description": null
+    },
+    {
+      "Id": 2,
+      "name": "عنصر رقم 2-2",
+      "Description": null
+    }
+  ],
+  "lsImg": [
+    {
+      "Id": 1,
+      "Img": "df72b2b0-b081-49a0-9852-f7865dc97929.jpeg"
+    },
+    {
+      "Id": 2,
+      "Img": "46de2853-fc49-4b7f-8f96-acb6cb912bad.jpeg"
+    },
+    {
+      "Id": 3,
+      "Img": "df26cf17-5ff9-4e77-b2ce-7c548dcf11a4.jpeg"
+    },
+    {
+      "Id": 4,
+      "Img": "25752566-9854-4c1c-bea0-dee2164bdbf1.jpg"
+    }
+  ]
+
 }

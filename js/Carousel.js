@@ -8,7 +8,7 @@ $(".carousel-inner").html('');
 			$.each(data, function (i, row) {
                 if(no==0){
 					items +='<div class="carousel-item active">'
-                    +'<img class="w-100" src="'+row.ImgUrl+'" alt="'+row.Title+'">'
+                    +'<img class="w-100" src="/img/'+row.ImgUrl+'" alt="'+row.Title+'">'
                     +'<div class="carousel-caption">'
                     +'<div class="container">'
                     +'<div class="row justify-content-center">'
@@ -24,7 +24,7 @@ $(".carousel-inner").html('');
                   
                 }else{
 					items +='<div class="carousel-item">'
-                    +'<img class="w-100" src="'+row.ImgUrl+'" alt="'+row.Title+'">'
+                    +'<img class="w-100" src="/img/'+row.ImgUrl+'" alt="'+row.Title+'">'
                     +'<div class="carousel-caption">'
                     +'<div class="container">'
                     +'<div class="row justify-content-center">'

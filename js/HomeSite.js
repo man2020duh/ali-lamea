@@ -5,17 +5,17 @@ $(".Featureslsdata1").html('');
 		dataType: 'json',		
 		success: function (data) {
             $(".FeaturesTitle").html(data.Title);                  
-            $(".FeaturesImgUrl").attr("src",data.ImgUrl);          
+            $(".FeaturesImgUrl").attr("src",'/img/' +data.ImgUrl);          
             $(".Featuresdescription").html(data.description);   
 			var items = '';          
 			$.each(data.lsdata1, function (i, row) {
                 items +=  '<div class="d-flex mb-5">'
                 +'<div class="flex-shrink-0 btn-square bg-primary rounded-circle" style="width: 90px; height: 90px;">'
-                +'<img class="img-fluid" src="'+row.ImgUrl+'" alt="'+data.Title+'">'
+                +'<img class="img-fluid" src="/img/'+data.Icon+'" alt="'+data.name+'">'
                 +'</div>'
                 +'<div class="ms-4">'
-                +'<h5 class="mb-3 ">'+row.Title+'</h5>'
-                +'<span>'+row.description+'</span>'
+                +'<h5 class="mb-3 ">'+row.name+'</h5>'
+                +'<span>'+row.Description+'</span>'
                 +'</div>'
                 +'</div>';
 			});
@@ -25,7 +25,7 @@ $(".Featureslsdata1").html('');
   //ServicesHome
   $(".Service").html('');
     $.ajax({
-		url: "/data/ServicesHome.json",	
+		url: "/data/ServicesArtHome.json",	
 		dataType: 'json',		
 		success: function (data) {       
 			var itemsService = '';          
@@ -33,10 +33,10 @@ $(".Featureslsdata1").html('');
 			$.each(data, function (i, row) {
         itemsService += '<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.'+no+'s">'
         +'<div class="service-item">'
-        +'<img class="img-fluid" src="'+row.ImgUrl+'" alt="'+row.Title+'">'
+        +'<img class="img-fluid" src="/img/'+row.ImgUrl+'" alt="'+row.Title+'">'
         +'<div class="d-flex align-items-center bg-light">'
         +'<div class="service-icon flex-shrink-0 bg-primary">'
-        +'<img class="img-fluid" src="'+row.Icon+'" alt="'+row.Title+'">'
+        +'<img class="img-fluid" src="/img/'+row.Icon+'" alt="'+row.Title+'">'
         +'</div>'
         +'<h1 class="h4 mx-4 mb-0" >'+row.Title+'</h1>'        
         +'</div>'
